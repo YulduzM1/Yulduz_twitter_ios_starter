@@ -1,6 +1,6 @@
-# Project 3 - *Name of App Here*
+# Project 3 - *Yulduz Twitter Mock-Up*
 
-**TWITTER MOCK_Up** is a basic twitter app to read your tweets.
+**Yulduz TWITTER MOCK_Up** is a basic twitter app to read your tweets.
 
 Time spent: **8** hours spent in total
 
@@ -22,6 +22,7 @@ The following **bonus** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![](https://imgur.com/a/4GcNQmM)
+
+![](https://imgur.com/a/YWahIAK.gif)
 
 
