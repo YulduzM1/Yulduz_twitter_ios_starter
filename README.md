@@ -26,6 +26,6 @@ Here's a walkthrough of implemented user stories:
 ![](https://imgur.com/ApVInri.gif)
 
 User stays Logged in across restarts:
-![](https://imgur.com/xOoUiUO.gif)
+![](https://imgur.com/ApVInri.gif)
 
 
