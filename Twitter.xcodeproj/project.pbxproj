@@ -16,6 +16,7 @@
 		AC4DE8F127DC065900E45945 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4DE8F027DC065900E45945 /* LoginViewController.swift */; };
 		AC4DE8F327DC497D00E45945 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4DE8F227DC497D00E45945 /* HomeTableViewController.swift */; };
 		AC4DE8F527DC705C00E45945 /* TwitterCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4DE8F427DC705C00E45945 /* TwitterCellTableViewCell.swift */; };
+		AC9F354627E1BDEA00C542B5 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F354527E1BDEA00C542B5 /* TweetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		AC4DE8F027DC065900E45945 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AC4DE8F227DC497D00E45945 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		AC4DE8F427DC705C00E45945 /* TwitterCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCellTableViewCell.swift; sourceTree = "<group>"; };
+		AC9F354527E1BDEA00C542B5 /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
 		C2D685C92646819A9A0DC30C /* Pods-Twitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twitter/Pods-Twitter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 				AC4DE8F027DC065900E45945 /* LoginViewController.swift */,
 				AC4DE8F227DC497D00E45945 /* HomeTableViewController.swift */,
 				AC4DE8F427DC705C00E45945 /* TwitterCellTableViewCell.swift */,
+				AC9F354527E1BDEA00C542B5 /* TweetViewController.swift */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";
@@ -126,7 +129,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = Dan;
 				TargetAttributes = {
 					6EBCF52121DF07FC00451C03 = {
@@ -211,6 +214,7 @@
 			files = (
 				AC4DE8F327DC497D00E45945 /* HomeTableViewController.swift in Sources */,
 				AC4DE8F127DC065900E45945 /* LoginViewController.swift in Sources */,
+				AC9F354627E1BDEA00C542B5 /* TweetViewController.swift in Sources */,
 				6EBCF54421E047A500451C03 /* TwitterAPICaller.swift in Sources */,
 				6EBCF52621DF07FC00451C03 /* AppDelegate.swift in Sources */,
 				AC4DE8F527DC705C00E45945 /* TwitterCellTableViewCell.swift in Sources */,
@@ -257,6 +261,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -319,6 +324,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -357,7 +363,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EJTT2N9E3L;
 				INFOPLIST_FILE = Twitter/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,7 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EJTT2N9E3L;
 				INFOPLIST_FILE = Twitter/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
