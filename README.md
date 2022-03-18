@@ -25,7 +25,7 @@ Here's a walkthrough of implemented user stories:
 
 ![](https://imgur.com/xnVqpP0.gif)
 
-##Twitter - Part I
+# Twitter - Part I
 
 The following **required** functionality is completed:
 
