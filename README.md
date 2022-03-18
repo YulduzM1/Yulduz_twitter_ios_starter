@@ -23,7 +23,7 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 
-![](https://imgur.com/a/h1kRvWT.gif)
+![](https://imgur.com/AzMLfYR.gif)
 
 ##Twitter - Part I
 
